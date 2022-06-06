@@ -65,16 +65,14 @@
 # + на тему файловой системы:
 # 5.  Дан текстовый файл, содержащий целые числа. Удалить из него все четные числа. 
 
-date = open('text.text', 'r+')
-nums = list(date.read())
-nums_modify = []
-for i in nums:
-    if int(i)%2 !=0:
-        nums_modify.append(i)
-nums = str(nums_modify)
-date.truncate(0)
-date.close()
-date = open('text.text', 'r+')
-date.write(nums)
-date.close()
-print(nums_modify)
+# date = open('text.text', 'r+')
+# n = str(date.read())
+# n_res = ""
+# for i in range(0, len(n)+1):
+#     if int(i)%2 == 0:
+#        n_res = n_res + n[i]
+# date.truncate(0)
+# date.close()
+# date = open('text.text', 'r+')
+# date.write(n_res)
+# date.close()
